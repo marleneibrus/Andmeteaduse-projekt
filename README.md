@@ -20,4 +20,5 @@ The "projekt !.ipnyb" notebook is where the training of our model happens. First
 Inference.ipynb is where we predict the results for the test dataset based on our trained model. Predicted results are written into the submission.csv file. 
 
 ## How to get the same results
-
+The same results can be achieved when downloading train_data_QUICK_START.csv and test_sequences.csv from here https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/data.
+Then using the code from notebook CVStoTFRecord the train data should be converted to TFRecord files. Training the model with the "projekt !.ipnyb" notebook with the parameters we have used and predicting the results on the test data will give the same results we have achieved with our project. 
