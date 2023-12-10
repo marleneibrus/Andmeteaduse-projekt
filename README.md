@@ -17,7 +17,7 @@ CVStoTFRecord.ipynb converts our train_data_QUICK_START.csv file to TFRecords. T
 
 The "projekt !.ipnyb" notebook is where the training of our model happens. First we are decoding the TFRecord files, then using transformer blocks for the model. The trained model is written into the model_weights folder. 
 
-Inference.ipynb is where we predict the results for the test dataset based on our trained model. Predicted results are written into the submission.csv file. 
+Inference.ipynb is where we predict the results for the test dataset based on our trained model. Predicted results are written into a file called "submission.csv". The final submission file is not uploaded to GitHub, due to the huge file size of nearly 9 GB-s.
 
 ## How to get the same results
 The same results can be achieved when downloading train_data_QUICK_START.csv and test_sequences.csv from here https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/data.
